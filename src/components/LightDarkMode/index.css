@@ -1,0 +1,63 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.card-container {
+  border: #000000 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode {
+  background-color: #000000;
+}
+.light-mode {
+  background-color: #ffffff;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.heading-white {
+  color: #ffffff;
+}
+
+.heading-black {
+  color: #000000;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #000000;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #ffffff;
+  height: 30px;
+  left: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .button {
+    height: 40px;
+  }
+}
